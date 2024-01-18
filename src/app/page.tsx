@@ -38,7 +38,7 @@ export default function Home() {
           <h1 className='text-3xl font-bold'>All together or not at all</h1>
           <h2 className='text-sm font-light italic'>Site coming soon</h2>
           <h3 className='mt-10 font-semibold'>
-            Having an idea you want to build?
+            Have an idea you want to build?
           </h3>
           <p className='mt-2 italic'>hello@enbloc.uk</p>
         </div>
