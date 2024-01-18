@@ -33,7 +33,7 @@ export default function Home() {
             height={80}
             className='z-0 col-span-5 col-start-6 row-start-8'
           />
-        </div> */}
+        </div>
         <div className='w-fit text-center md:mt-14'>
           <h1 className='text-3xl font-bold'>All together or not at all</h1>
           <h2 className='text-sm font-light italic'>Site coming soon</h2>
@@ -41,7 +41,7 @@ export default function Home() {
             Having an idea you want to build?
           </h3>
           <p className='mt-2 italic'>hello@enbloc.uk</p>
-        </div>
+        </div> */}
       </div>
     </main>
   );

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 //Components
-import StickyHeader from '@/components/header';
+import StickyHeader from '@/components/StickyHeader';
 
 export const metadata: Metadata = {
   title: 'enBloc',
