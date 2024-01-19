@@ -13,7 +13,7 @@ type HamburgerPropTypes = {
 };
 
 const HamburgerMenu: React.FC<HamburgerPropTypes> = ({ links }) => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const clickHandler = () => {
     setIsOpen(!isOpen);
@@ -42,7 +42,7 @@ const HamburgerMenu: React.FC<HamburgerPropTypes> = ({ links }) => {
             );
           })}
         </div>
-        <div className='flex flex-col gap-10 mt-10 sm:mt-0'>
+        <div className='mt-10 flex flex-col gap-10 sm:mt-0'>
           <Link href={'/'}>hello@enbloc.uk</Link>
           <div className='h-0.5 w-full rounded-full bg-black'></div>
           <Link
