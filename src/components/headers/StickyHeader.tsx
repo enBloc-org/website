@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 //Components
-import HamburgerMenu from './headers/nav/HamburgerMenu';
+import HamburgerMenu from './nav/HamburgerMenu';
 
 type HeaderPropTypes = {
   img: string;
@@ -18,7 +18,7 @@ const links = [
 const StickyHeader: React.FC<HeaderPropTypes> = ({ img, alt }) => {
   return (
     <header className='sticky top-0 flex items-center justify-between p-10 sm:px-16 md:px-36'>
-      <div className='relative h-20 w-48 border-2 border-red-500 md:h-28 md:w-72'>
+      <div className='relative h-20 w-48 md:h-28 md:w-72'>
         <Image
           src={img}
           alt={alt}

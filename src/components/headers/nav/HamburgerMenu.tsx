@@ -3,7 +3,7 @@ import InstagramIcon from '@/components/icons/InstagramIcon';
 import LinkedInIcon from '@/components/icons/LinkedInIcon';
 import Link from 'next/link';
 import { useState } from 'react';
-import HamburgerButton from '../HamburgerButton';
+import HamburgerButton from './HamburgerButton';
 
 type HamburgerPropTypes = {
   links: {
@@ -13,7 +13,7 @@ type HamburgerPropTypes = {
 };
 
 const HamburgerMenu: React.FC<HamburgerPropTypes> = ({ links }) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   const clickHandler = () => {
     setIsOpen(!isOpen);
@@ -29,20 +29,20 @@ const HamburgerMenu: React.FC<HamburgerPropTypes> = ({ links }) => {
             : 'invisible -translate-y-5 opacity-0'
         }`}
       >
-        <div className='flex flex-col gap-10'>
+        <div className='flex flex-col gap-8'>
           {links.map((link) => {
             return (
               <Link
                 href={link.href}
                 key={link.title}
-                className='font-sans text-4xl'
+                className='link font-sans text-4xl'
               >
                 {link.title}
               </Link>
             );
           })}
         </div>
-        <div className='flex flex-col gap-10'>
+        <div className='flex flex-col gap-10 mt-10 sm:mt-0'>
           <Link href={'/'}>hello@enbloc.uk</Link>
           <div className='h-0.5 w-full rounded-full bg-black'></div>
           <Link
