@@ -10,6 +10,9 @@ const config: Config = {
     extend: {
       size: {
         '128': '30rem',
+      },
+      colors: {
+        'highlight-green': '#3CCCCB'
       }
     },
   },

@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main>
       <div className='flex flex-col items-center justify-center md:flex-row'>
-        <div className='size-128 grid grid-cols-12 grid-rows-12'>
+        {/* <div className='size-128 grid grid-cols-12 grid-rows-12'>
           <Image
             src='/enBloc-logo-teal-nobg.png'
             alt='enBloc logo'
@@ -41,7 +41,7 @@ export default function Home() {
             Having an idea you want to build?
           </h3>
           <p className='mt-2 italic'>hello@enbloc.uk</p>
-        </div>
+        </div> */}
       </div>
     </main>
   );
