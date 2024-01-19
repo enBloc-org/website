@@ -13,7 +13,7 @@ type HamburgerPropTypes = {
 };
 
 const HamburgerMenu: React.FC<HamburgerPropTypes> = ({ links }) => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const clickHandler = () => {
     setIsOpen(!isOpen);
