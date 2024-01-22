@@ -10,7 +10,9 @@ const HamburgerButton: React.FC<HamburgerButtonProps> = ({
   return (
     <button
       onClick={clickHandler}
-      className='relative z-20 flex h-16 w-16 flex-col items-center justify-center rounded-full border-4 border-black lg:h-24 lg:w-24'
+      className='fixed right-[6%] top-11 z-40 flex h-16 w-16 flex-col items-center 
+      justify-center rounded-full border-4 border-black sm:right-11 md:right-36 
+      md:top-16 lg:top-11 lg:h-24 lg:w-24'
       aria-label={isOpen ? 'Close Menu' : 'Open Menu'}
       aria-expanded={isOpen}
     >
