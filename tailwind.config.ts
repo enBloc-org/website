@@ -12,7 +12,8 @@ const config: Config = {
         '128': '30rem',
       },
       colors: {
-        'highlight-green': '#3CCCCB'
+        'highlight-green': '#3CCCCB',
+        'orange': '#ED8A01'
       }
     },
   },
