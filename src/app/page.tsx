@@ -6,10 +6,10 @@ export default function Home() {
   return (
     <>
       <StickyHeader img='/enbloc-logo-teal-nobg.png' alt='Logo for enbloc' />
-      <main className='mt-10 flex flex-col items-center'>
+      <main className='mt-stack-sm flex flex-col items-center'>
         <section className='flex flex-col gap-6'>
           <h1 className='text-center text-2xl'>An Incubators for Developers</h1>
-          <div className='flex flex-col gap-10 md:flex-row'>
+          <div className='mt-stack-sm flex flex-col gap-10 md:flex-row'>
             <div className='relative m-auto h-[400px] w-[400px] md:order-2'>
               <Image
                 src={placeholderImg}
@@ -19,12 +19,12 @@ export default function Home() {
               />
             </div>
             <div
-              className='md:px-medium-screen mr-4 rounded-r-3xl px-10 bg-[#ED8A01] py-8 
+              className='md:px-medium-screen mr-10 rounded-r-3xl bg-[#ED8A01] px-12 py-8 
             leading-relaxed text-white md:order-1 md:w-1/2'
             >
-              <h2 className='p-6 text-xl italic'>enBloc? Who dis?</h2>
+              <h2 className='p-6 text-xl italic'>About us</h2>
               <p>
-                EnBloc is a lot of things.{' '}
+                <span className='ml-4'>enBloc</span> is a lot of things.{' '}
                 <strong className='text-lg italic'>Agile and adaptable</strong>,
                 we are a web agency born from the ever growing Founders and
                 Coders alumni community and a creator of open source tools for
@@ -33,7 +33,7 @@ export default function Home() {
                 of backgrounds and strengths.
               </p>
               <p className='mt-4'>
-                We bring a{' '}
+                <span className='ml-4'>We</span> bring a{' '}
                 <strong className='text-lg italic'>
                   passion for innovation
                 </strong>{' '}
@@ -47,7 +47,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div>
+          <div className='mt-[-4rem]'>
             <div className='grid size-128 grid-cols-12 grid-rows-12'>
               <Image
                 src='/enBloc-logo-teal-nobg.png'
@@ -78,19 +78,21 @@ export default function Home() {
                 className='z-0 col-span-5 col-start-6 row-start-8'
               />
             </div>
-            <div className='ml-10 rounded-l-3xl bg-[#9B2226] px-10 py-8 text-white'>
+            <div className='ml-10 rounded-l-3xl bg-[#9B2226] px-12 py-8 text-white'>
               <h2 className='p-6 text-2xl italic'>Our Process</h2>
               <p>
-                At the heart of enBloc is a collaborative approach. We tackle
-                each project as a collaboration between enBloc members and
-                product owners.
+                <span className='ml-4'>At</span> the heart of enBloc is a
+                collaborative approach. We tackle each project as a
+                collaboration between enBloc members and product owners.
               </p>
               <p className='mt-4'>
-                We build up our network by bringing product owners together with
-                a diverse technical team at different stages of their career. We
-                emphasise knowledge sharing and mentorship internally to
-                guarantee that every project shipped by enBloc is the result of
-                the best efforts of a concise network.
+                <span className='ml-4'>By</span> bringing product owners
+                together with a diverse technical team at different stages of
+                their career. We emphasise{' '}
+                <strong className='text-lg italic'>knowledge sharing</strong>and
+                <strong className='text-lg italic'>mentorship</strong>{' '}
+                internally to guarantee that every project shipped by enBloc is
+                the result of the best efforts of a concise network.
               </p>
             </div>
           </div>

@@ -34,6 +34,11 @@ const config: Config = {
       padding: {
         'medium-screen': '9rem',
       },
+      margin: {
+        'stack-sm': '2.5rem',
+        'stack-md': '5rem',
+        'stack-lg': '10rem',
+      },
     },
   },
   plugins: [],
