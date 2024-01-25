@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -12,10 +12,30 @@ const config: Config = {
         '128': '30rem',
       },
       colors: {
-        'highlight-green': '#3CCCCB'
-      }
+        'highlight-green': '#3CCCCB',
+      },
+      keyframes: {
+        slidein: {
+          from: {
+            opacity: '0',
+            transform: 'translateY(-10px)',
+          },
+          to: {
+            opacity: '1',
+            transform: 'translateY(0)',
+          },
+        },
+      },
+      animation: {
+        slidein300: 'slidein 1s ease 300ms forwards',
+        slidein500: 'slidein 1s ease 500ms forwards',
+        slidein700: 'slidein 1s ease 700ms forwards',
+      },
+      padding: {
+        'medium-screen': '9rem',
+      },
     },
   },
   plugins: [],
-}
-export default config
+};
+export default config;

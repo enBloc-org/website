@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 //Components
-import StickyHeader from '@/components/headers/StickyHeader';
 
 export const metadata: Metadata = {
   title: 'enBloc',
@@ -17,7 +16,6 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body>
-        <StickyHeader img='/enbloc-logo-teal-nobg.png' alt='Logo for enbloc' />
         {children}
       </body>
     </html>
