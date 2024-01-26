@@ -15,6 +15,8 @@ const config: Config = {
         'highlight-green': '#3CCCCB',
         'en-orange': '#ED8A01',
         'en-red': '#9B2226',
+        'en-blue': '#0F49A0',
+        'en-pink': '#C042A9',
       },
       keyframes: {
         slidein: {
@@ -36,7 +38,7 @@ const config: Config = {
       padding: {
         'small-screen': '4.5rem',
         'medium-screen': '9rem',
-        'large-screen': '12rem'
+        'large-screen': '10rem',
       },
       margin: {
         'stack-sm': '2.5rem',

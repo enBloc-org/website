@@ -8,7 +8,7 @@ type IncubatorProps = {
   aboutRef: RefObject<HTMLDivElement>;
 };
 
-const IncubatorBox: React.FC<IncubatorProps> = ({ aboutRef }) => {
+const IncubatorSection: React.FC<IncubatorProps> = ({ aboutRef }) => {
   return (
     <section ref={aboutRef} className='flex flex-col gap-6 xl:mt-stack-md'>
       <h1 className='pt-5 text-center text-3xl lg:text-5xl'>
@@ -112,4 +112,4 @@ const IncubatorBox: React.FC<IncubatorProps> = ({ aboutRef }) => {
   );
 };
 
-export default IncubatorBox;
+export default IncubatorSection;
