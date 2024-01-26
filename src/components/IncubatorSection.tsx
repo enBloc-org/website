@@ -23,7 +23,7 @@ const IncubatorSection: React.FC<IncubatorProps> = ({ aboutRef }) => {
             className='rounded-3xl'
           />
         </div>
-        <div className='colour-text-bg mr-6 rounded-r-3xl bg-en-orange lg:mr-40'>
+        <div className='colour-text-bg mr-6 rounded-r-3xl bg-en-orange lg:mr-40 xl:mr-[-2rem]'>
           <h2 className='pb-4 text-2xl italic'>About us</h2>
           <p>
             <span className='ml-4'>enBloc</span> is a lot of things.{' '}
@@ -60,7 +60,7 @@ const IncubatorSection: React.FC<IncubatorProps> = ({ aboutRef }) => {
         </div>
       </div>
       <div className='mt-[-4rem] items-center xl:mt-stack-sm xl:flex'>
-        <div className='m-auto grid size-128 max-w-[350px] grid-cols-12 grid-rows-12 overflow-hidden'>
+        <div className='m-auto grid size-128 max-w-[350px] grid-cols-12 grid-rows-12'>
           <Image
             src='/enBloc-logo-teal-nobg.png'
             alt='enBloc logo'
@@ -90,7 +90,7 @@ const IncubatorSection: React.FC<IncubatorProps> = ({ aboutRef }) => {
             className='z-0 col-span-5 col-start-6 row-start-8'
           />
         </div>
-        <div className='colour-text-bg ml-6 rounded-l-3xl bg-en-red lg:ml-40'>
+        <div className='colour-text-bg ml-6 rounded-l-3xl bg-en-red lg:ml-40 xl:ml-[-2rem]'>
           <h2 className='pb-4 text-2xl italic'>Our Process</h2>
           <p>
             <span className='ml-4'>At</span> the heart of enBloc is a
