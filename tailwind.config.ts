@@ -13,7 +13,8 @@ const config: Config = {
       },
       colors: {
         'highlight-green': '#3CCCCB',
-        'orange': '#ED8A01',
+        'en-orange': '#ED8A01',
+        'en-red': '#9B2226',
       },
       keyframes: {
         slidein: {
