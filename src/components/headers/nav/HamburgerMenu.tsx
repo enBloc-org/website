@@ -52,17 +52,25 @@ const HamburgerMenu: React.FC<HamburgerPropTypes> = ({ linkRefs }) => {
           <Link href={'/'}>hello@enbloc.uk</Link>
           <div className='h-0.5 w-full rounded-full bg-black'></div>
           <Link
-            href={'/contact'}
+            href={'mailto:hello@enbloc.uk'}
             className='rounded-xl bg-highlight-green px-4 py-3'
           >
             send us a message
           </Link>
           <div className='h-0.5 w-full rounded-full bg-black'></div>
           <div className='flex justify-around pb-4'>
-            <Link href={'/'}>
+            <Link
+              href={'https://www.instagram.com/enbloc_dev/'}
+              target='_blank'
+            >
               <InstagramIcon height={50} width={50} />
             </Link>
-            <Link href={'/'}>
+            <Link
+              href={
+                'https://www.linkedin.com/company/100594044/admin/feed/posts/'
+              }
+              target='_blank'
+            >
               <LinkedInIcon height={50} width={50} />
             </Link>
           </div>
