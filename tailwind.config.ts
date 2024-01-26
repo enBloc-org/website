@@ -34,7 +34,9 @@ const config: Config = {
         slidein700: 'slidein 1s ease 700ms forwards',
       },
       padding: {
+        'small-screen': '4.5rem',
         'medium-screen': '9rem',
+        'large-screen': '12rem'
       },
       margin: {
         'stack-sm': '2.5rem',
