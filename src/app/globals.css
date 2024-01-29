@@ -2,6 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Universal */
+
 body {
   background-image: url('../../public/22.svg');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-mono;
+}
+
+/* Generic */
+
+.colour-text-bg {
+  @apply sm:px-small-screen mt-stack-sm px-12 py-10 
+  leading-relaxed text-white md:order-1 md:px-medium-screen lg:px-large-screen xl:w-1/2;
+}
+
+/* Nav and Hamburger */
+
+.large-screen-btn {
+  @apply lg:h-2 lg:w-14;
+}
+
+.nav-menu {
+  @apply fixed left-0 top-0 z-30 flex h-screen w-screen transform flex-col 
+  items-center justify-around gap-2 rounded-l bg-[#C4D1D6]  
+  pt-16 text-center shadow-lg transition-all duration-500 ease-in-out 
+  sm:flex-row sm:pt-0 lg:px-44;
+}
+
+.link::after {
+  content: '';
+  height: 0.15rem;
+  width: 0%;
+  background-color: #000;
+  display: block;
+  margin: 0.5rem auto;
+  transition: width 0.5s;
+}
+
+.link:hover::after {
+  width: 90%;
 }
