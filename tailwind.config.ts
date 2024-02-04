@@ -17,6 +17,7 @@ const config: Config = {
         'en-red': '#9B2226',
         'en-blue': '#0F49A0',
         'en-pink': '#C042A9',
+        'en-green': '#218281',
       },
       keyframes: {
         slidein: {

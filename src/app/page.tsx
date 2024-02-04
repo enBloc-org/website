@@ -3,6 +3,7 @@ import BlogSection from '@/components/BlogSection';
 import StickyHeader from '@/components/headers/StickyHeader';
 import IncubatorSection from '@/components/IncubatorSection';
 import OurWorkSection from '@/components/OurWorkSection';
+import Footer from '@/components/footer/Footer';
 import { useRef } from 'react';
 
 export default function Home() {
@@ -29,8 +30,8 @@ export default function Home() {
         <IncubatorSection aboutRef={linkRefs[0].ref} />
         <OurWorkSection workRef={linkRefs[1].ref} />
         <BlogSection blogRef={linkRefs[2].ref} />
+        <Footer />
       </main>
-      ;
     </>
   );
 }
