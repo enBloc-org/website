@@ -11,6 +11,9 @@ const config: Config = {
       size: {
         '128': '30rem',
       },
+      fontFamily: {
+        'overpass': 'Overpass, sans-serif'
+      },
       colors: {
         'highlight-green': '#3CCCCB',
         'en-orange': '#ED8A01',
@@ -39,7 +42,7 @@ const config: Config = {
       padding: {
         'small-screen': '4.5rem',
         'medium-screen': '9rem',
-        'large-screen': '10rem',
+        'large-screen': '8rem',
       },
       margin: {
         'stack-sm': '2.5rem',
