@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Overpass:ital,wght@0,400;1,600&display=swap');
+
 /* Universal */
 
 body {
@@ -14,14 +16,18 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-mono;
+  @apply font-mono font-semibold;
+}
+
+p {
+  @apply font-overpass;
 }
 
 /* Generic */
 
-.colour-text-bg {
-  @apply sm:px-small-screen mt-stack-sm px-12 py-10
-  leading-relaxed text-white md:order-1 md:px-medium-screen lg:px-large-screen xl:w-1/2;
+.colour-text-card {
+  @apply mt-stack-sm px-12 py-12 leading-relaxed
+  text-white sm:px-small-screen md:order-1 md:px-medium-screen lg:px-large-screen xl:w-1/2;
 }
 
 /* Nav and Hamburger */
