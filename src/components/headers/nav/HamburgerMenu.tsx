@@ -2,9 +2,9 @@
 
 import InstagramIcon from '@/components/icons/InstagramIcon';
 import LinkedInIcon from '@/components/icons/LinkedInIcon';
-import Link from 'next/link';
 import { useState, RefObject } from 'react';
 import HamburgerButton from './HamburgerButton';
+import ContactLink from './ContactLink';
 
 type HamburgerPropTypes = {
   linkRefs: {
@@ -49,30 +49,14 @@ const HamburgerMenu: React.FC<HamburgerPropTypes> = ({ linkRefs }) => {
           })}
         </div>
         <div className='mt-10 flex flex-col gap-10 sm:mt-0'>
-          <Link href={'/'}>hello@enbloc.uk</Link>
+          <p>hello@enbloc.uk</p>
           <div className='h-0.5 w-full rounded-full bg-black'></div>
-          <Link
-            href={'mailto:hello@enbloc.uk'}
-            className='rounded-xl bg-highlight-green px-4 py-3'
-          >
-            send us a message
-          </Link>
+          <ContactLink>send us a message</ContactLink>
           <div className='h-0.5 w-full rounded-full bg-black'></div>
           <div className='flex justify-around pb-4'>
-            <Link
-              href={'https://www.instagram.com/enbloc_dev/'}
-              target='_blank'
-            >
-              <InstagramIcon height={50} width={50} />
-            </Link>
-            <Link
-              href={
-                'https://www.linkedin.com/company/100594044/admin/feed/posts/'
-              }
-              target='_blank'
-            >
-              <LinkedInIcon height={50} width={50} />
-            </Link>
+            <LinkedInIcon height={50} width={50} />
+            <InstagramIcon height={50} width={50} />
+
           </div>
         </div>
       </div>

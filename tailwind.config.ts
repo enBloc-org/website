@@ -11,12 +11,16 @@ const config: Config = {
       size: {
         '128': '30rem',
       },
+      fontFamily: {
+        'overpass': 'Overpass, sans-serif'
+      },
       colors: {
         'highlight-green': '#3CCCCB',
         'en-orange': '#ED8A01',
         'en-red': '#9B2226',
         'en-blue': '#0F49A0',
         'en-pink': '#C042A9',
+        'en-green': '#218281',
       },
       keyframes: {
         slidein: {
@@ -38,7 +42,7 @@ const config: Config = {
       padding: {
         'small-screen': '4.5rem',
         'medium-screen': '9rem',
-        'large-screen': '10rem',
+        'large-screen': '8rem',
       },
       margin: {
         'stack-sm': '2.5rem',
