@@ -14,8 +14,8 @@ const OurWorkSection: React.FC<OurWorkProps> = ({ workRef }) => {
       >
         Recent Work
       </h2>
-      <div className='grid grid-cols-2 grid-rows-2'>
-        <div className='m-5 w-3/4 rounded-lg bg-en-orange p-8 text-white'>
+      <div className='m-auto grid w-5/6 grid-cols-1 grid-rows-2 gap-5 md:grid-cols-2 lg:grid-cols-2'>
+        <div className='w-full rounded-lg bg-en-orange p-8 text-white lg:px-20'>
           <h3 className='pb-4 text-2xl italic'>Cambridge University</h3>
           <p>
             In collaboration with researchers at Cambridge University, our team
@@ -25,7 +25,7 @@ const OurWorkSection: React.FC<OurWorkProps> = ({ workRef }) => {
             extracting insights from over 8 million archival files.
           </p>
         </div>
-        <div className='m-5 w-3/4 rounded-lg bg-en-orange p-8 text-white'>
+        <div className='w-full rounded-lg bg-en-orange p-8 text-white lg:px-20'>
           <h3 className='pb-4 text-2xl italic'>Kindly</h3>
           <p>
             Trafalgar Girls, a charity supporting Ukrainian refugees in the UK,
@@ -36,7 +36,7 @@ const OurWorkSection: React.FC<OurWorkProps> = ({ workRef }) => {
             communicate, provide and receive support as needed.
           </p>
         </div>
-        <div className='m-5 w-3/4 rounded-lg bg-en-orange p-8 text-white'>
+        <div className='rounded-lg  bg-en-orange p-8 text-white lg:px-20'>
           <h3 className='pb-4 text-2xl italic'>Cinesphere</h3>
           <p>
             Discovering independent cinema in London is made easier with
