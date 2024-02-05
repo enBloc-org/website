@@ -1,6 +1,5 @@
 'use client';
 import Image from 'next/image';
-import placeholderImg from '../../public/placeholder.jpg';
 import { RefObject } from 'react';
 import Link from 'next/link';
 
@@ -17,7 +16,7 @@ const IncubatorSection: React.FC<IncubatorProps> = ({ aboutRef }) => {
       <div className='mt-stack-sm items-center xl:flex'>
         <div className='relative m-auto h-[350px] w-[350px] md:h-[400px] md:w-[450px] lg:order-2'>
           <Image
-            src={placeholderImg}
+            src={'/enbloc-2.jpg'}
             fill={true}
             alt='The enbloc team'
             className='rounded-3xl'
