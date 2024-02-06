@@ -11,7 +11,7 @@ const IncubatorSection: React.FC<IncubatorProps> = ({ aboutRef }) => {
   return (
     <section ref={aboutRef} className='flex flex-col gap-6 xl:mt-stack-md'>
       <h2 className='px-4 text-center text-xl font-light italic sm:text-2xl md:text-3xl lg:text-4xl'>
-        A creative agency with a purpose.
+        A Web Agency With Purpose
       </h2>
       <div className='mt-stack-sm items-center xl:flex'>
         <div className='relative m-auto h-[350px] w-[350px] md:h-[400px] md:w-[450px] lg:order-2'>
