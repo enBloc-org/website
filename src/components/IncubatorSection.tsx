@@ -27,7 +27,7 @@ const IncubatorSection: React.FC<IncubatorProps> = ({ aboutRef }) => {
             enBloc is a lot of things.
           </h2>
           <p className='mt-4'>
-            Agile and adaptable , we are a web agency born from the ever growing
+            Agile and adaptable, we are a web agency born from the ever growing
             Founders and Coders alumni community and a creator of open source
             tools. Working with us will allow you to harness the power of a
             collective of developers with a variety of backgrounds and
