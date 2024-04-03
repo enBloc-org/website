@@ -21,7 +21,7 @@ const OurWorkSection: React.FC<OurWorkProps> = ({ workRef }) => {
             We/ve paired up with Gatsby to promote and support new initiatives
             in education.
             <br />
-            <br /> In support of Gatsby's push for techincal education reform we
+            <br /> In support of Gatsby&apos;s push for techincal education reform we
             are building a platform to promote T levels while mentoring learners
             within our own ranks.
           </p>
