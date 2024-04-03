@@ -11,7 +11,7 @@ const ContactLink: React.FC<ContactLinkProps> = ({ className, children }) => {
   return (
     <Link
       href={'mailto:hello@enbloc.uk'}
-      className={tm('rounded-xl bg-highlight-green px-4 py-3', className)}
+      className={tm('rounded-xl bg-highlight-green px-4  py-3', className)}
     >
       {children}
     </Link>
