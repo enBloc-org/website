@@ -5,7 +5,7 @@ import InstagramIcon from '../icons/InstagramIcon';
 
 const Footer = () => {
   return (
-    <footer className='mt-5 bg-en-green px-2 py-8 text-white'>
+    <footer className='mt-20 bg-en-green px-2 py-8 text-white'>
       <div className='mt-8 flex flex-wrap items-center justify-center gap-8 px-2 md:justify-around'>
         <div className='flex flex-wrap items-center justify-center gap-8'>
           <div className='relative h-24 w-24 md:h-40 md:w-40'>
