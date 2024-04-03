@@ -16,13 +16,14 @@ const OurWorkSection: React.FC<OurWorkProps> = ({ workRef }) => {
       </h2>
       <div className='m-auto grid w-5/6 grid-cols-1 grid-rows-2 gap-5 md:grid-cols-2 lg:grid-cols-2'>
         <div className='w-full rounded-lg bg-en-orange p-8 text-white lg:px-20'>
-          <h3 className='pb-4 text-2xl italic'>Cambridge University</h3>
+          <h3 className='pb-4 text-2xl italic'>Gatsby</h3>
           <p>
-            In collaboration with researchers at Cambridge University, our team
-            at enBloc had the opportunity to contribute to academic discovery.
+            We/ve paired up with Gatsby to promote and support new initiatives
+            in education.
             <br />
-            <br /> In this project we built a bespoke scraper capable of
-            extracting insights from over 8 million archival files.
+            <br /> In support of Gatsby's push for techincal education reform we
+            are building a platform to promote T levels while mentoring learners
+            within our own ranks.
           </p>
         </div>
         <div className='w-full rounded-lg bg-en-orange p-8 text-white lg:px-20'>
@@ -34,6 +35,16 @@ const OurWorkSection: React.FC<OurWorkProps> = ({ workRef }) => {
             <br />
             <br /> In response, the Kindly app allows donors and refugees to
             communicate, provide and receive support as needed.
+          </p>
+        </div>
+        <div className='w-full rounded-lg bg-en-orange p-8 text-white lg:px-20'>
+          <h3 className='pb-4 text-2xl italic'>Cambridge University</h3>
+          <p>
+            In collaboration with researchers at Cambridge University, our team
+            at enBloc had the opportunity to contribute to academic discovery.
+            <br />
+            <br /> In this project we built a bespoke scraper capable of
+            extracting insights from over 8 million archival files.
           </p>
         </div>
         <div className='rounded-lg  bg-en-orange p-8 text-white lg:px-20'>
