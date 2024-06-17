@@ -1,5 +1,4 @@
 'use client';
-import BlogSection from '@/components/BlogSection';
 import StickyHeader from '@/components/headers/StickyHeader';
 import IncubatorSection from '@/components/IncubatorSection';
 import OurWorkSection from '@/components/OurWorkSection';
