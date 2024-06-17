@@ -5,7 +5,7 @@ import InstagramIcon from '../icons/InstagramIcon';
 
 const Footer = () => {
   return (
-    <footer className='bg-en-green px-2 py-8 text-white'>
+    <footer className='mt-20 bg-en-green px-2 py-8 text-white'>
       <div className='mt-8 flex flex-wrap items-center justify-center gap-8 px-2 md:justify-around'>
         <div className='flex flex-wrap items-center justify-center gap-8'>
           <div className='relative h-24 w-24 md:h-40 md:w-40'>
@@ -16,7 +16,7 @@ const Footer = () => {
             />
           </div>
           <div className='flex flex-col gap-4'>
-            <h3 className='pl-4 font-sans text-xl font-bold md:text-2xl text-center sm:text-start'>
+            <h3 className='pl-4 text-center font-sans text-xl font-bold sm:text-start md:text-2xl'>
               Let&apos;s Collaborate
             </h3>
             <p className='max-w-80 px-4 text-justify italic'>
