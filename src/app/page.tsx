@@ -21,11 +21,7 @@ export default function Home() {
 
   return (
     <>
-      <StickyHeader
-        linkRefs={linkRefs}
-        img='/enbloc-logo-teal-nobg.png'
-        alt='Logo for enbloc'
-      />
+      <StickyHeader linkRefs={linkRefs} />
       <main className='mt-stack-sm flex flex-col'>
         <IncubatorSection aboutRef={linkRefs[0].ref} />
         <OurWorkSection workRef={linkRefs[1].ref} />
@@ -33,5 +29,6 @@ export default function Home() {
         <Footer />
       </main>
     </>
+
   );
 }

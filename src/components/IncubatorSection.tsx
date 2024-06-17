@@ -10,6 +10,9 @@ type IncubatorProps = {
 const IncubatorSection: React.FC<IncubatorProps> = ({ aboutRef }) => {
   return (
     <section ref={aboutRef} className='flex flex-col gap-6 xl:mt-stack-md'>
+      <h2 className='px-4 text-center text-xl font-light italic sm:text-2xl md:text-3xl lg:text-4xl'>
+        A Web Agency With Purpose
+      </h2>
       <div className='mt-stack-sm items-center xl:flex'>
         <div className='relative m-auto h-[350px] w-[350px] md:h-[400px] md:w-[450px] lg:order-2'>
           <Image
@@ -19,12 +22,12 @@ const IncubatorSection: React.FC<IncubatorProps> = ({ aboutRef }) => {
             className='rounded-3xl'
           />
         </div>
-        <div className='colour-text-card font-overpass mr-6 rounded-r-3xl bg-en-orange lg:mr-40 xl:mr-[-2rem]'>
+        <div className='colour-text-card mr-6 rounded-r-3xl bg-en-orange font-overpass lg:mr-40 xl:mr-[-2rem]'>
           <h2 className='text-xl font-semibold italic'>
             enBloc is a lot of things.
           </h2>
           <p className='mt-4'>
-            Agile and adaptable , we are a web agency born from the ever growing
+            Agile and adaptable, we are a web agency born from the ever growing
             Founders and Coders alumni community and a creator of open source
             tools. Working with us will allow you to harness the power of a
             collective of developers with a variety of backgrounds and
@@ -81,7 +84,7 @@ const IncubatorSection: React.FC<IncubatorProps> = ({ aboutRef }) => {
             className='z-0 col-span-5 col-start-6 row-start-8'
           />
         </div>
-        <div className='colour-text-card font-overpass ml-6 rounded-l-3xl bg-en-red lg:ml-40 xl:ml-[-2rem]'>
+        <div className='colour-text-card ml-6 rounded-l-3xl bg-en-red font-overpass lg:ml-40 xl:ml-[-2rem]'>
           <h2 className='text-xl font-semibold italic'>
             An incubator for developers{' '}
           </h2>{' '}
