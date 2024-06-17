@@ -56,7 +56,6 @@ const HamburgerMenu: React.FC<HamburgerPropTypes> = ({ linkRefs }) => {
           <div className='flex justify-around pb-4'>
             <LinkedInIcon height={50} width={50} />
             <InstagramIcon height={50} width={50} />
-
           </div>
         </div>
       </div>
