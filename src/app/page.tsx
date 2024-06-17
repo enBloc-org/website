@@ -12,10 +12,6 @@ export default function Home() {
       title: 'WORK',
       ref: useRef(null),
     },
-    {
-      title: 'BLOG',
-      ref: useRef(null),
-    },
   ];
 
   return (
@@ -27,6 +23,5 @@ export default function Home() {
         <Footer />
       </main>
     </>
-
   );
 }
